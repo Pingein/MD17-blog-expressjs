@@ -1,0 +1,98 @@
+.commentContainer {
+    display: flex;
+    background-color: rgb(51, 51, 51);
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.commentImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 50px;
+}
+
+.commentatorImage {
+    width: 50px;
+    height: 50px;
+}
+
+.commentFieldContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.commentatorNameContainer {
+    border-bottom: 1px solid rgb(141, 141, 141);
+    margin-left: 0.5em;
+    color: rgb(255, 255, 255);
+}
+
+.commentatorName {
+    margin: 0;// 0 0 0.5em;
+    line-height: 1em;
+    background-color: rgb(51, 51, 51);
+    font-size: 1.125em;
+    color: white;
+    font-family: monospace, sans-serif;
+    border: none;
+    border-bottom: 0px solid white;
+    transition: border-bottom 0.1s;
+     
+    &:focus {
+        outline: none;
+        border-bottom: 1px solid white;
+    }
+}
+
+.textContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteBtn, .editBtn, .postBtn, .acceptBtn, .cancelBtn {
+    cursor: pointer;
+    background-color: rgb(51, 51, 51);
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 10px;
+    color: white;
+    font-family: monospace, sans-serif;
+    height: min-content;
+    margin: 5px 2px;
+    &:hover {
+        background-color: rgb(48, 48, 48);
+    }
+    &:focus {
+        outline: 1px solid rgb(197, 197, 197);
+    }
+    &:active {
+        background-color: rgb(80, 80, 80);
+    }
+}
+
+.comment {
+    line-height: 1em;
+    margin: 0.25em 0 0 1em;
+}
+
+.commentText {
+    line-height: 1em;
+    margin: 0.25em 0 0 1em;
+    background-color: rgb(51, 51, 51);
+    //font-size: 1.125em;
+    color: white;
+    font-family: monospace, sans-serif;
+    border: none;
+    width: 90%;
+     
+    &:focus {
+        outline: none;
+        //outline: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+}

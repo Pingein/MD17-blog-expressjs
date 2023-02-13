@@ -1,0 +1,115 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "image_url": "https://picsum.photos/id/69/1200/600",
+      "title": "Blog Title 1 is a very long blog title",
+      "excerpt": "in this blog i will be talking about long blog titles , and why you shouldnt use them",
+      "content": "this is a blog about blog in a blog that is a blog a blog in blog very very long",
+      "comments": [
+        {
+          "id": 1,
+          "commentator_image_url": "https://picsum.photos/id/135/200",
+          "commentator_name": "b.o.",
+          "comment": "okay"
+        },
+        {
+          "id": 3,
+          "commentator_image_url": "https://picsum.photos/id/87/200",
+          "commentator_name": "chief keef",
+          "comment": "sosa"
+        },
+        {
+          "id": 4,
+          "commentator_image_url": "https://picsum.photos/id/52/200",
+          "commentator_name": "tony hawk",
+          "comment": "hi im tony hawk from skateboarding"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "image_url": "https://picsum.photos/id/68/1200/600",
+      "title": "Blog Title 2",
+      "excerpt": "Life is a journey filled with ups and downs, twists and turns, and a multitude of experiences that shape who we are and who we will become.",
+      "content": "the bee move was okay",
+      "comments": [
+        {
+          "id": 2,
+          "commentator_image_url": "https://picsum.photos/id/57/200",
+          "commentator_name": "xd",
+          "comment": "keep that to yourself"
+        },
+        {
+          "id": 3,
+          "commentator_image_url": "https://picsum.photos/id/87/200",
+          "commentator_name": "chief keef",
+          "comment": "sosa"
+        },
+        {
+          "id": 4,
+          "commentator_image_url": "https://picsum.photos/id/52/200",
+          "commentator_name": "tony hawk",
+          "comment": "hi im tony hawk from skateboarding"
+        },
+        {
+          "id": 699008,
+          "comment": "wow didnt no you was chill like dat",
+          "commentator_image_url": "https://picsum.photos/id/123/200",
+          "commentator_name": "barry o."
+        }
+      ]
+    },
+    {
+      "image_url": "https://www.aorus.com/upload/Product/F_20201230135856TD1TZv.JPG",
+      "title": "test blog 1",
+      "excerpt": "this is a test blog",
+      "content": "first test blog",
+      "comments": [
+        {
+          "id": 396922,
+          "comment": "test blog first comment",
+          "commentator_image_url": "https://picsum.photos/id/405/200",
+          "commentator_name": "commenter"
+        },
+        {
+          "id": 93918,
+          "comment": "adding another comment",
+          "commentator_image_url": "https://picsum.photos/id/57/200",
+          "commentator_name": "another comment"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "image_url": "https://s.namemc.com/3d/skin/body.png?id=89e7f3b67d172890&model=classic&width=317&height=317",
+      "title": "steve sideways",
+      "excerpt": "they made steve sideways",
+      "content": "why did the ydo that",
+      "comments": [
+        {
+          "id": 394585,
+          "comment": "i wish i knew",
+          "commentator_image_url": "https://picsum.photos/id/451/200",
+          "commentator_name": "what???"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "image_url": "https://cdn.akamai.steamstatic.com/steam/apps/730/capsule_616x353.jpg?t=1641233427",
+      "title": "csgo",
+      "excerpt": "1.6",
+      "content": "bruh",
+      "comments": [
+        {
+          "id": 949067,
+          "comment": "very good gameg",
+          "commentator_image_url": "https://picsum.photos/id/457/200",
+          "commentator_name": "gamer"
+        }
+      ],
+      "id": 5
+    }
+  ]
+}

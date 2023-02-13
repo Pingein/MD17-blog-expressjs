@@ -1,0 +1,48 @@
+.navBar {
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navList {
+    display: flex;
+    gap: 3em;
+}
+
+.navText {
+    font-family: monospace, sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    user-select: none;
+
+
+    &:link, &:visited {
+        color:rgb(226, 242, 255);
+    }
+    &:hover {
+        color:rgb(255, 255, 255);
+    }
+    &:active {
+        color:rgb(190, 226, 255);
+    }
+}
+
+.addPostBtn {
+    cursor: pointer;
+    padding: 0.625em 1.5em;
+
+    border: none;
+
+    background-color: rgb(83, 83, 83);
+    &:link, &:visited {
+        background-color: rgb(83, 83, 83);
+        color: aliceblue;
+    }
+    &:hover {
+        background-color:rgb(108, 180, 0);
+    }
+    &:active {
+        background-color:rgb(96, 160, 0);
+    }
+}

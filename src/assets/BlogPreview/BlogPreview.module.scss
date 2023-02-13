@@ -1,0 +1,45 @@
+.blogCard {
+    margin: 0.5em;
+    width: 400px;
+    background-color: #464646;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.2s;
+    &:hover {
+        transform: scale(1.02);
+    }
+}
+
+.textContainer {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    bottom: 200px;
+    display: flex;
+    align-items: flex-end;
+    background: linear-gradient(0deg, #252525 0%, transparent 50%);
+}
+
+.excerpt {
+    position: relative;
+    bottom: 210px;
+    left: 0.5em
+}
+
+.image {
+    width: 100%;
+    opacity: 50%;
+    height: 200px;
+}
+
+.title {
+    position: relative;
+    left: 1em;
+    width: calc(100% - 1.125em);
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
